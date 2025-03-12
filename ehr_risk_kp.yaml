@@ -641,7 +641,7 @@ components:
           q: "{{ input_curies }}"
           scopes: subject.id
         parameters:
-          fields: object.id,association.edge_attributes
+          fields: object.id,association.edge_attributes,subject.id
           filter: subject.type:"biolink:Disease" AND association.predicate:associated_with_increased_likelihood_of AND object.type:"biolink:Disease"
           size: 1000
       provenance:   ## static format
