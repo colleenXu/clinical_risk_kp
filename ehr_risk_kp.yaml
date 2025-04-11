@@ -647,6 +647,7 @@ components:
       provenance:   ## static format
         knowledge_level: statistical_association
         agent_type: computational_model
+        api_is_aggregator: false
         sources:
           - id: "infores:biothings-multiomics-ehr-risk"
             role: primary_knowledge_source
