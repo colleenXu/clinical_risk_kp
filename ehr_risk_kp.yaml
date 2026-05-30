@@ -19,7 +19,7 @@ info:
     biolink-version: "3.1.1"
 servers:
   - x-maturity: production
-    url: https://biothings.ncats.io/multiomics_ehr_risk_kp
+    url: https://biothings.transltr.io/multiomics_ehr_risk_kp
     description: ITRB Prod server
   - x-maturity: testing
     url: https://biothings.test.transltr.io/multiomics_ehr_risk_kp
